@@ -15,8 +15,3 @@ pub mod engine;
 
 #[cfg(feature = "mrpc")]
 pub mod rpc;
-
-#[cfg(feature = "salloc")]
-pub use salloc;
-#[cfg(feature = "transport")]
-pub use transport;
